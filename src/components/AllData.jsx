@@ -17,7 +17,7 @@ export default function AllData() {
     const fetchProduct = async () => {
       try {
         const response = await axios.get(
-          `http://ec2-16-171-194-144.eu-north-1.compute.amazonaws.com:8080/api/data/${roll}`
+          `/api/data/${roll}`
         );
         setData(response.data);
         if (response.data.imageName) {
@@ -30,7 +30,7 @@ export default function AllData() {
 
     const fetchImage = async () => {
       const response = await axios.get(
-        `http://ec2-16-171-194-144.eu-north-1.compute.amazonaws.com:8080/api/data/${roll}/image`,
+        `/api/data/${roll}/image`,
         { responseType: "blob" }
       );
       setImageUrl(URL.createObjectURL(response.data));
