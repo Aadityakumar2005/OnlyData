@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import unplugged from "../assets/unplugged.png";
 import axios from "axios";
+import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 
 const Home1 = () => {
