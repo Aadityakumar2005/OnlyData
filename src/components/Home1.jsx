@@ -11,8 +11,8 @@ const Home1 = () => {
   const [selectedCardData, setSelectedCardData] = useState(null);
   const navigate = useNavigate();
 
-  const fetchData = async (roll) => {
-    
+  const fetchData = async () => {
+    toast.error("Please login to access more data");
   };
 
   useEffect(() => {
@@ -87,7 +87,7 @@ const Home1 = () => {
                     </h2>
                     <button
                       className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition mx-24"
-                      onClick={() => fetchData(roll)}
+                      onClick={() => fetchData()}
                     >
                       View More
                     </button>
