@@ -13,15 +13,7 @@
         "destination": "http://ec2-16-171-194-144.eu-north-1.compute.amazonaws.com:8080/api/data/:roll"
       },
         {
-      "source": "/view_data/:roll?__clerk_db_jwt=dvb_2tojQ2JJfVeCpOyRyo1jqpnXzFX&__clerk_handshake=eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDExMUFBQSIsImtpZCI6Imluc18ydE9CRU9WUTg5bDFuSXU5TmM0cVJxR0o5TFQiLCJ0eXAiOiJKV1QifQ.eyJoYW5kc2hha2UiOlsiX19jbGllbnRfdWF0PTsgUGF0aD0vOyBFeHBpcmVzPVRodSwgMDEgSmFuIDE5NzAgMDA6MDA6MDAgR01UOyBTYW1lU2l0ZT1MYXgiLCJfX2NsaWVudF91YXQ9MTc0MTAzMzQxNjsgUGF0aD0vOyBEb21haW49b25seS1kYXRhLnZlcmNlbC5hcHA7IE1heC1BZ2U9MzE1MzYwMDAwOyBTYW1lU2l0ZT1MYXgiLCJfX3Nlc3Npb249ZXlKaGJHY2lPaUpTVXpJMU5pSXNJbU5oZENJNkltTnNYMEkzWkRSUVJERXhNVUZCUVNJc0ltdHBaQ0k2SW1sdWMxOHlkRTlDUlU5V1VUZzViREZ1U1hVNVRtTTBjVkp4UjBvNVRGUWlMQ0owZVhBaU9pSktWMVFpZlEuZXlKaGVuQWlPaUpvZEhSd2N6b3ZMMjl1YkhrdFpHRjBZUzUyWlhKalpXd3VZWEJ3SWl3aVpYaHdJam94TnpReE1ETXpORGMyTENKbWRtRWlPbHN3TEMweFhTd2lhV0YwSWpveE56UXhNRE16TkRFMkxDSnBjM01pT2lKb2RIUndjem92TDNOMGRXNXVhVzVuTFhOdVlYQndaWEl0TnpBdVkyeGxjbXN1WVdOamIzVnVkSE11WkdWMklpd2libUptSWpveE56UXhNRE16TkRBMkxDSnphV1FpT2lKelpYTnpYekowYjNweWIyTkphekphV2xOeWRuTnlVVkUxYlc1R1RGbEVXU0lzSW5OMVlpSTZJblZ6WlhKZk1uUlBRek5vVm5WV1FYZDNUREYxY2xCblZrdHlURmQwTmxCT0luMC5ETTEtaHBIV1g0VFhtcW14Snppb2RUZzlvWUFaMnQ1b3g5TUV6R05WTXZDN0ZOU2lvS3hTRjVLdkFWQ193eUJWOVlmYzhybnRZRW1aSHlRSGJqMXNsVUNYdTVpQzM3ckhyMFZuSnk3Q2F1UWZkZWJyX2ZFWlBHb0xxOGw1SmJIamtFaXFtNHU3c1BST21yUmlxZF81Ym9COFJzN0xKSURlell4dHRYeXRrZTYzeENCSHFTeFUyUnNIb2hieXJ4emlqSkRjY09sNUZxUFJtUWxadEh6ZkUwc0FQc2dfUmttSUtVeU9XY0RrTnNvYVBKWlk2QjJwdzVYTFo5cjFJT3VkZW1KOHB0aEw5TVBJUlJpTXFkSGkyQnJ2ckhUSkpPRkdldE9lZTdadVB4WDVhR1hsN1BsUzJGeXJ4S2lhUDdvQ3ZWX3VhVUxnam51d2xxTGEwOEJqNGc7IFBhdGg9LzsgRXhwaXJlcz1UdWUsIDAzIE1hciAyMDI2IDIwOjIzOjM2IEdNVDsgU2FtZVNpdGU9TGF4IiwiX19yZWZyZXNoX0FHNUlySDNYPUxPTVJnTk44TUVxb3d2dkgySjQwOyBQYXRoPS87IEV4cGlyZXM9VHVlLCAwMyBNYXIgMjAyNiAyMDoyMzozNiBHTVQ7IEh0dHBPbmx5OyBTYW1lU2l0ZT1MYXgiXX0.e23R4sJVc3n1nKLlK0q5PAbFEFRi9Ms8zQ39j_opuVaGDAymh7drFGBl0jIJSg3UOdYE9hyOoU0CoPQozQKfLaa3nARn8ev6rgAqXJ--oJ2iBvKghKloE3vhdV4N-s7kIjcHnBRlDS0-T4FqREeQ_Dq-bmFoshWN_mAaF7nHwpPbQ3Tv9Z3x1MGeKPQFAE1-8_nn0UckurSPq-SYjBalHGKIBbrvfGjvm0bCtPTzhhi1JVaSknm6O0DJ3WbvBL5eR-XVE5tJUSYmOQ2k7PiCjN-M2QNwOSnCsf69ztsu3G_pevs4MWW8qmkK4rDSyAsbG0OGHqfEubZ7PNSQPzJUgg",
-      "destination": "http://ec2-16-171-194-144.eu-north-1.compute.amazonaws.com:8080/view_data/:roll"
-    },
-        {
       "source": "/view_data/:roll",
-      "destination": "http://ec2-16-171-194-144.eu-north-1.compute.amazonaws.com:8080/view_data/:roll"
-    },
-        {
-      "source": "/view_data/:roll?__clerk_db_jwt=dvb_2tojQ2JJfVeCpOyRyo1jqpnXzFX",
       "destination": "http://ec2-16-171-194-144.eu-north-1.compute.amazonaws.com:8080/view_data/:roll"
     }
     ]
