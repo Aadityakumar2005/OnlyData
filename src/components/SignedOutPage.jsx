@@ -13,6 +13,13 @@ export default function SignedOutPage() {
           Please sign in to access the more content.
         </p>
       </div>
+      <button
+          className="px-4 py-2 bg-blue-500 text-white font-medium text-lg rounded-lg shadow hover:bg-blue-600 transition duration-200"
+        >
+          <SignedOut>
+            <SignInButton/>
+          </SignedOut>
+        </button>
     </div>
   )
 }
