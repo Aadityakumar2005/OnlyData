@@ -14,7 +14,7 @@ const Home = () => {
   const fetchData = async (roll) => {
     try {
       const response = await axios.get(
-        `http://ec2-16-171-194-144.eu-north-1.compute.amazonaws.com:8080/api/data/${roll}`
+        `/api/data/${roll}`
       );
       setSelectedCardData(response.json);
       const data = response.data;
@@ -27,7 +27,7 @@ const Home = () => {
   useEffect(() => {
     const getData = async () => {
       try {
-        const response = await axios.get("http://ec2-16-171-194-144.eu-north-1.compute.amazonaws.com:8080/api/allData");
+        const response = await axios.get("/api/allData");
         setProducts(response.data);
       } catch (error) {
         setErr(true);
@@ -42,7 +42,7 @@ const Home = () => {
         products.map(async (product) => {
           try {
             const response = await axios.get(
-              `http://ec2-16-171-194-144.eu-north-1.compute.amazonaws.com:8080/api/data/${product.roll}/image`,
+              `/api/data/${product.roll}/image`,
               { responseType: "blob" }
             );
             const imageUrl = URL.createObjectURL(response.data);
