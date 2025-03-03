@@ -1,8 +1,19 @@
 {
-  "rewrites": [
-    {
-      "source": "/api/allData",
-      "destination": "http://ec2-16-171-194-144.eu-north-1.compute.amazonaws.com:8080/api/allData"
-    }
-  ]
+    "version": 2,
+    "builds": [
+        {
+            "src": "/app.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/app.js",
+            "methods":["GET","POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+            "headers":{
+                "Access-Control-Allow-Origin": "*"
+            }
+        }
+    ]
 }
