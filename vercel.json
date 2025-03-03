@@ -14,7 +14,7 @@
       },
         {
       "source": "/view_data/:roll?__clerk_db_jwt=dvb_2tojQ2JJfVeCpOyRyo1jqpnXzFX",
-      "destination": "http://ec2-16-171-194-144.eu-north-1.compute.amazonaws.com:8080/view_data/:roll?__clerk_db_jwt=dvb_2tojQ2JJfVeCpOyRyo1jqpnXzFX"
+      "destination": "http://ec2-16-171-194-144.eu-north-1.compute.amazonaws.com:8080/view_data/:roll"
     },
         {
       "source": "/view_data/:roll",
