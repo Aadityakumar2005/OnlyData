@@ -220,8 +220,25 @@ const AddData = () => {
             />
           </div>
 
-          {/* Image */}
-          <div>
+           {/* Address */}
+          <div className="">
+          <label className="block text-gray-700 text-sm font-bold mb-2">
+            Address
+          </label>
+          <textarea
+            name="address"
+            // type="text"
+            value={data.address}
+            onChange={handleChange}
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            placeholder="Your Address"
+            required
+          ></textarea>
+        </div>
+        </div>
+        {/* Image */}
+       
+        <div>
             <label className="block text-gray-700 text-sm font-bold mb-2">
               Image
             </label>
@@ -231,23 +248,9 @@ const AddData = () => {
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               required
             />
+            <p>Note: Image file should be 1 MB maximum.</p>
           </div>
-        </div>
 
-        {/* Address */}
-        <div className="mt-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2">
-            Address
-          </label>
-          <textarea
-            name="address"
-            value={data.address}
-            onChange={handleChange}
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            placeholder="Your Address"
-            required
-          ></textarea>
-        </div>
 
         {/* Submit Button */}
         <div className="flex justify-center mt-6">
