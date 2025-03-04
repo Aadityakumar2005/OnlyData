@@ -98,7 +98,7 @@ const Home = () => {
                       className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition mx-24"
                       onClick={() => fetchData(roll)}
                     >
-                      View More
+                      View Profile
                     </button>
                   </div>
                 </div>
