@@ -11,7 +11,7 @@ const UndefinedRoutePage = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <h1 className="text-6xl font-bold text-gray-800">404</h1>
-      <p className="mt-4 text-xl text-gray-600">Oops! The page you&apos;re looking for doesn&apos;t exist.</p>
+      <p className="mt-4 text-xl text-gray-600">First go to home page and then sign in to add data.</p>
       <Link
         to="/"
         onClick={handleClick}
