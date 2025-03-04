@@ -21,7 +21,7 @@
       "destination": "http://ec2-16-171-194-144.eu-north-1.compute.amazonaws.com:8080/api/data"
     },
         {
-      "source": "/",
+      "source": "/api/email",
       "destination": "http://ec2-16-171-194-144.eu-north-1.compute.amazonaws.com:8080/api/email"
     }
     ]
