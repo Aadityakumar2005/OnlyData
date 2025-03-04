@@ -38,7 +38,7 @@ const AddData = () => {
 
     try {
       const response = await axios.post(
-        "http://ec2-16-171-194-144.eu-north-1.compute.amazonaws.com:8080/api/data",
+        "/api/data",
         formData,
         {
           headers: {
