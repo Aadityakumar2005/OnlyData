@@ -25,7 +25,7 @@ const Footer = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://ec2-16-171-194-144.eu-north-1.compute.amazonaws.com:8080/api/email", {
+      const response = await fetch("/api/email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
